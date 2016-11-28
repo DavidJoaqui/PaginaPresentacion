@@ -1,0 +1,73 @@
+@font-face{
+	font-family:'Antonio';
+	src:url('../fonts/Antonio-Regular.ttf');
+}
+@font-face{
+	font-family:'Aller';
+	src:url('../fonts/Aller_rg.ttf');
+}
+#home{
+	text-align: center;
+	height: 900px;
+	color: white;
+	font-family: 'Aller';
+	background: url('../img/tecl3.jpg');
+}
+#about{
+	text-align: center;
+	height: 900px;
+	color: white;
+	margin-top: 1px;
+	font-family: 'Aller';
+	background: url('../img/code4.jpg');
+}
+#portafolio{
+	height: 900px;
+	color: white;
+	font-family: 'Antonio';
+	background: url('../img/monitor2.jpg');
+}
+
+
+#body{
+	background-color: gray;
+}
+#nombre{
+	padding-top: 250px;
+	font-size: 50px;
+}
+#btngithub{
+	margin-right: 5px;
+	border-radius: 5px;
+	color: #000000;
+}
+#btnfacebook{
+	margin-right: 5px;
+	border-radius: 5px;
+}
+#btntwitter{
+	margin-right: 5px;
+	border-radius: 5px;
+}
+#foto{
+	margin-top: 50px;
+	margin-left: 100px;
+	border-radius: 100%;
+	margin-right:50px; 
+}
+#titulotecnologia{
+padding-left:50px
+}
+#tituloportafolio{
+	font-size:60px;
+	color: #ffffff;
+	padding-top: 60px;
+	padding-left: 100px;
+	margin-top: 1px;
+}
+#imagenesportfolio{
+	width: 300px;
+	height: 180px;
+	margin-left: 60px;
+	margin-bottom: 5px;
+}
