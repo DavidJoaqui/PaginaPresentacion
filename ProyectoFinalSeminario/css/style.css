@@ -24,7 +24,7 @@
 #portafolio{
 	height: 900px;
 	color: white;
-	font-family: 'Antonio';
+	font-family: 'Aller';
 	background: url('../img/monitor2.jpg');
 }
 #contacto{
@@ -56,7 +56,7 @@ background-color: gray;
 #btngithub{
 	margin-right: 5px;
 	border-radius: 5px;
-	color: #000000;
+	
 }
 #btnfacebook{
 	margin-right: 5px;
