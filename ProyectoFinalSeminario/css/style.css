@@ -27,10 +27,27 @@
 	font-family: 'Antonio';
 	background: url('../img/monitor2.jpg');
 }
+#contacto{
+	height: 900px;
+	color: white;
+	font-family: 'Antonio';
+	background: url('../img/agenda_opt.jpg');
+	margin-top:0px;
+	padding-top: 100px;
 
-
+}
+#jbtcontacto{
+margin-right: 60px;
+margin-left: 60px;
+margin-top: 0px;
+padding-top: 10px;
+height: 400PX;
+width: 700px;
+color: #0094ff;
+}
 #body{
 	background-color: gray;
+	margin: 10px;
 }
 #nombre{
 	padding-top: 250px;

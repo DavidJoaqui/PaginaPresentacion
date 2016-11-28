@@ -2,7 +2,7 @@
 <html>
 <head>
 
-<script src="../js/jquery-3.1.1.js"></script>
+<script   src="https://code.jquery.com/jquery-3.1.1.js"   integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="   crossorigin="anonymous"></script>
  
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="">
@@ -39,24 +39,37 @@
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="#"><a href="#">Home<span class="sr-only">(current)</span></a></li>
-        <li class="#"><a href="#">About Us<span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
+      <ul class="nav navbar-nav" >
+        <li class="#" ><a href="#home" id="btn_Home">Home<span class="sr-only">(current)</span></a></li>
+        <li class="#" ><a href="#about" id="btn_about_us">About Us<span class="sr-only">(current)</span></a></li>
+        <li><a href="#portafolio">Portfolio</a></li>
+        <li><a href="#contacto">Contact</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+
+
+
+
+</script>
+
 </head>
 <body id="body">
  <div class="img-responsive" alt="Imagen responsive" id="home">
            <h1 id="nombre">David Joaqui</h1>
            <h3>Engineers make the world go round !</h3>
            <div class="btn-group" role="group" aria-label="...">
+           <a href="https://github.com/DavidJoaqui">
+
            <button id="btngithub" type="button" class="btn btn-default">Github<i class="fa fa-icon-github"></i></button>
+           </a>
+           <a href="https://www.facebook.com/DAVIG4/about">
           <button id="btnfacebook" type="button" class="btn btn-default">Facebook</button>
+          </a>
+          <a href="https://twitter.com/DAVIG4COL">
           <button id="btntwitter" type="button" class="btn btn-default">Twitter</button> 
+          </a>
           </div>
  </div>
 
@@ -119,7 +132,7 @@ Some of these as</p>
       <td>
       <center>
       <a href="https://platzi.com/base-de-datos/">
-          <button aling="center" class="btn btn-info" type="button" class="btn btn-default">Bases de Datos</button
+          <button aling="center" class="btn btn-info" type="button" class="btn btn-default">Cursos/Bases de Datos</button
               >
           </a>
       </center>    
@@ -136,6 +149,49 @@ Some of these as</p>
   </tr>
 </table>
 </div>                        
+</div>
+
+<div id="contacto">
+<div style="background-color:#ffffff;width:150px;margin-left:300px">
+<h1 align="center" style="color:#0094ff;font-size:50px">Contact</h1>
+</div>
+<center>
+<div class="jumbotron" id="jbtcontacto">
+<div class="container">
+<form>
+<div style="color:#000000">
+ <div class="form-group">
+         <label for="inputName" class="control-label col-xs-2 cols-md-12">Name:</label>
+         
+             <input type="name" class="form-control" placeholder="Nombre">
+      
+     </div>
+  <div class="form-group">
+      <label for="email" class="control-label col-xs-2 cols-md-12" >Email address:</label>
+    
+      <input type="email" class="form-control" id="email" placeholder="Email">
+      
+  </div>
+   <div class="form-group">
+        <label class="control-label col-xs-2 cols-md-12" >Phone:</label>
+        
+            <input type="tel" class="form-control" placeholder="Telefono">
+        
+    </div>
+
+<div class="form-group">
+    <label for="exampleTextarea" class="control-label col-xs-2 cols-md-12">Comments</label>
+    
+    <textarea class="form-control" id="exampleTextarea" placeholder="your comments!"></textarea>
+    
+  </div>
+  <button type="submit" class="btn btn-info">Submit</button>
+</form>
+</div>
+</div>
+</center>
+</form>
+</div>
 
 </body>
 </html>
